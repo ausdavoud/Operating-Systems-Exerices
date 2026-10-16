@@ -24,8 +24,8 @@ gcc quera/5.tri.c -o tri
 echo 5 | ./tri
 ```
 
-The programs that call `pow` also need the math library, so add `-lm` for those. The third session is split across two files, which compile together:
+The programs that call `pow` also need the math library, so add `-lm` for those. The third session is split across two files and builds with `make`:
 
 ```bash
-gcc 03/03.c 03/03_math.c -o add
+cd 03 && make
 ```

@@ -1,1 +1,3 @@
-.vscode
+.vscode/
+*.out
+03/03

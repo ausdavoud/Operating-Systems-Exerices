@@ -23,14 +23,6 @@ C exercises from an operating systems course. The first sessions cover the C the
 | [`quera/`](quera) | Six judged problems and two `fork()` assignments |
 | [`quera/hs/`](quera/hs) | Other versions of a few of the same problems |
 
-In `01/`, `03/` and `04/` most snippets are kept as comments, one per idea, with a single part left to run.
-
-<table>
-<tr>
-<td width="50%"><img alt="A process in memory: stack, free space, heap, globals and text, from high addresses to low" src="docs/memory.png"></td>
-<td width="50%"><img alt="The process tree from 04: the father forks children A and B, A forks C, and B forks D and E" src="docs/fork-tree.png"></td>
-</tr>
-</table>
 
 ## Building
 
